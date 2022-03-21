@@ -8,7 +8,7 @@ import {
     HomeIcon
 } from '@heroicons/react/outline'
 import Image from 'next/image';
-import { useRouter } from 'next/router'
+
 import HeaderItem from './HeaderItem';
 const Header = () => {
     return (
@@ -24,6 +24,7 @@ const Header = () => {
             <div >
                 <Image className='object-contain'
                     src="https://thisis.hulu.com/img/hulu-preloader-animation-green.gif"
+                    alt="HULU"
                     width={200} height={100} />
             </div>
         </header>

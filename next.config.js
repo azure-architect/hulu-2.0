@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images:{
-    domains: ['thisis.hulu.com']
+    domains: ['thisis.hulu.com','image.tmdb.org']
   }
 }
 
